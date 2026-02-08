@@ -1,0 +1,37 @@
+name: Actualizar NOMOS Home Brain
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # Una hora después del de SEO para no saturar
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Deps
+        run: pip install pytrends requests
+
+      - name: Run
+        run: python nomos_trends.py
+
+      - name: Save
+        run: |
+          git config --global user.name 'NOMOS-Home-Bot'
+          git config --global user.email 'bot@jairoamaya.co'
+          git add nomos_home_intelligence.json
+          git commit -m "Update Home Intelligence" || exit 0
+          git pull --rebase origin main
+          git push origin main
