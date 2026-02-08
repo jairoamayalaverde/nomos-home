@@ -1,0 +1,25 @@
+{
+    "last_update": "2026-02-08 00:05:57",
+    "insights": {
+        "Poco Tráfico": {
+            "status": "ESTABLE",
+            "score": 25,
+            "reddit_voice": "El mercado está demandando nuevas estructuras de marca hoy."
+        },
+        "Baja Conversión": {
+            "status": "ESTABLE",
+            "score": 0,
+            "reddit_voice": "El mercado está demandando nuevas estructuras de marca hoy."
+        },
+        "Competencia": {
+            "status": "ESTABLE",
+            "score": 0,
+            "reddit_voice": "El mercado está demandando nuevas estructuras de marca hoy."
+        },
+        "Técnico": {
+            "status": "ESTABLE",
+            "score": 3,
+            "reddit_voice": "El mercado está demandando nuevas estructuras de marca hoy."
+        }
+    }
+}
