@@ -1,25 +1,25 @@
 {
-    "last_update": "2026-02-08 00:05:57",
+    "last_update": "2026-02-08 00:41:47",
     "insights": {
         "Poco Tráfico": {
             "status": "ESTABLE",
-            "score": 25,
-            "reddit_voice": "El mercado está demandando nuevas estructuras de marca hoy."
+            "score": 0,
+            "reddit_voice": "El debate estratégico en comunidades globales está en punto máximo."
         },
         "Baja Conversión": {
             "status": "ESTABLE",
-            "score": 0,
-            "reddit_voice": "El mercado está demandando nuevas estructuras de marca hoy."
+            "score": 19,
+            "reddit_voice": "El debate estratégico en comunidades globales está en punto máximo."
         },
         "Competencia": {
             "status": "ESTABLE",
             "score": 0,
-            "reddit_voice": "El mercado está demandando nuevas estructuras de marca hoy."
+            "reddit_voice": "El debate estratégico en comunidades globales está en punto máximo."
         },
         "Técnico": {
             "status": "ESTABLE",
             "score": 3,
-            "reddit_voice": "El mercado está demandando nuevas estructuras de marca hoy."
+            "reddit_voice": "El debate estratégico en comunidades globales está en punto máximo."
         }
     }
 }
