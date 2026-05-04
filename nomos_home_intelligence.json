@@ -1,24 +1,24 @@
 {
-    "last_update": "2026-05-03 04:43:17",
+    "last_update": "2026-05-04 04:43:19",
     "insights": {
         "Poco Tráfico": {
             "status": "ESTABLE",
-            "score": 0,
+            "score": 10,
             "reddit_voice": "El debate estratégico en comunidades globales está en punto máximo."
         },
         "Baja Conversión": {
             "status": "ESTABLE",
-            "score": 0,
+            "score": 10,
             "reddit_voice": "El debate estratégico en comunidades globales está en punto máximo."
         },
         "Competencia": {
             "status": "ESTABLE",
-            "score": 0,
+            "score": 10,
             "reddit_voice": "El debate estratégico en comunidades globales está en punto máximo."
         },
         "Técnico": {
             "status": "ESTABLE",
-            "score": 0,
+            "score": 10,
             "reddit_voice": "El debate estratégico en comunidades globales está en punto máximo."
         }
     }
